@@ -1,0 +1,35 @@
+body {
+    background-color: #f5f5f5;
+}
+
+.iframe_top {
+    width: 100%;
+    border: 0;
+}
+
+.iframe_bottom {
+    width: 100%;
+
+}
+
+
+@media (min-width: 576px) {
+    .iframe_top {
+        height: 11rem;
+    }
+
+    .iframe_bottom {
+        height: 35rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .iframe_top {
+        height: 6.5rem;
+    }
+
+    .iframe_bottom {
+        height: 25rem;
+    }
+
+}

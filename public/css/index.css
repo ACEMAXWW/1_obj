@@ -1,0 +1,143 @@
+.carousel-indicators li {
+    width: 0.8rem;
+    height: 0.8rem;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: 0 0.5rem;
+}
+
+.carousel-indicators li.active {
+    background-color: #0aa1ed;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    width: 4%;
+    height: 20%;
+    top: 40%;
+    border-radius: 0.25rem;
+    background-color: #aaaaaa;
+}
+
+.carousel-control-next {
+    right: 0.25rem
+}
+
+.carousel-control-prev {
+    left: 0.25rem;
+}
+
+.border-bottom {
+    border-bottom: 2px solid #d9d9d9 !important;
+
+}
+
+.top_height {
+    height: 377px;
+    background: #e8e8e8;
+    margin-bottom: 0.25rem;
+}
+
+.bottom_height {
+    height: 233px;
+    background: #e8e8e8;
+}
+
+.L1_img {
+    float: right;
+    margin-right: 30px;
+    margin-top: -230px;
+    transition: 1s;
+}
+
+.L2_img {
+    float: right;
+    margin-top: -230px;
+    margin-right: 30px;
+    transition: 1s;
+}
+
+.L3_img {
+    float: right;
+    margin-top: -150px;
+    margin-right: 30px;
+    transition: 1s;
+}
+
+.L4_img {
+    float: right;
+    margin-top: 4px;
+    margin-right: 0px;
+    transition: 1s;
+}
+
+.mg_t {
+    margin-top: 1px;
+}
+
+.w-63 {
+    width: 63%;
+}
+
+.btn_4 {
+    margin-top: -12px;
+    right: 1px;
+}
+
+.L1_img:hover, .L2_img:hover, .L3_img:hover, .L4_img:hover {
+    transform: scale(1.1);
+}
+
+
+@media (min-width: 576px) {
+    .L1_width {
+        width: 60%;
+    !important;
+    }
+
+    .L2_width {
+        width: 40% !important;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .L1_width {
+        width: 50%;
+    !important;
+    }
+
+    .L2_width {
+        width: 50% !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .L1_width {
+        width: 60%;
+    !important;
+    }
+
+    .L2_width {
+        width: 40% !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    .L1_width {
+        width: 50%;
+    !important;
+    }
+
+    .L2_width {
+        width: 50% !important;
+    }
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/navi.css">
+
+</head>
+<body>
+<div class="navi lry_nav">
+    <div class="navi-top">
+        <div class="div_in_b navi-top-left ">
+            <img class="w-100" src="img/logo.png" alt="logo">
+        </div>
+        <div class="div_in_b navi-top-center ">
+            <input type="text" placeholder="产品搜索" size="20" name="" id="inp1" onfocus="inp()" onblur="inpd()">
+            <img src="img/header/放大镜.png" alt="">
+        </div>
+        <div class="div_in_b navi-top-right1 ntr ">
+            <img src="img/header/人.png" alt="">账户
+        </div>
+        <div class="div_in_b navi-top-right2 ntr">
+            <img src="img/header/购物篮.png" alt="">
+            <div class="str"><!--购物车角标-->0</div>
+            购物车
+        </div>
+    </div>
+    <div class="navbar">
+        <div class="h40 ">营养补剂</div>
+        <div class="h40 ">服装配饰</div>
+        <div class="h40 ">特别膳食需求</div>
+        <div class="h40 ">按系列购买</div>
+        <div class="h40 ">运动目标</div>
+        <div class="h40 ">博客</div>
+        <div class="h40 ">健康中心</div>
+    </div>
+</div>
+
+<script>
+    // 获取元素；5
+    let lry_nav = document.querySelectorAll('.lry_nav')[0];
+    console.log(lry_nav)
+    //声明一个空数组把循环的lry_nav push的空数组里
+    var arr = []
+
+    //offsetTop是获取的元素距离顶部的距离
+    arr.push(lry_nav.offsetTop);
+    console.log(arr)
+    // 元素滚动时执行onscroll事件
+    document.onscroll = function () {
+        //获取到顶部滚动的距离
+        let s_top = document.documentElement.scrollTop
+        // 循环arr
+        for (let i = 0; i < arr.length; i++) {
+            // 判断顶部滚动的距离跟arr的每一项`
+            if (s_top >= arr) {
+                //满足走if
+                lry_nav.style.top = '0'
+                lry_nav.style.left = '0'
+            } else {
+                //不满足走else
+                lry_nav.style.top = '13px'
+            }
+        }
+    }
+
+    function inp() {
+        var inp2 = document.getElementById('inp1')
+        inp2.style.boxShadow = '0 0 0 100000px  rgba(0,0,0,0.8)'
+    }
+
+    function inpd() {
+        var inp2 = document.getElementById('inp1')
+        inp2.style.boxShadow = '0 0 0 0  rgba(0,0,0,0.8)'
+    }
+
+</script>
+</body>
+</html>

@@ -1,0 +1,109 @@
+.top1 {
+    width: 100%;
+    height: 32px;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+
+}
+
+.top2 {
+
+    height: 32px;
+
+    margin: 0;
+    padding: 0;
+}
+
+.img1 {
+    height: 17px;
+    width: 17px;
+    border-radius: 50%;
+    margin-right: 3px;
+}
+
+.topsp {
+    height: 32px;
+    width: 107px;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 1.25rem;
+    text-align: center;
+    display: inline-block;
+    padding: 4px;
+    cursor: default;
+}
+
+.topsp:hover {
+    background-color: #E6E6E6;
+}
+
+
+.baoyou {
+    height: 56px;
+    background-color: #f2f2f2;
+    display: flex;
+    align-items: center;
+
+}
+
+.baoyou > div {
+    height: 40px;
+    padding: 8px 20px;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 黑体;
+    line-height: 1.25rem;
+    margin: 7.6px 0;
+    flex: 1;
+    text-align: center;
+}
+
+.baoyou > div > a > img {
+    height: 100%;
+    margin-top: -1px;
+
+}
+
+.baoyou > div > a {
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+}
+
+.baoyou1 {
+    margin-top: 10px;
+}
+
+.youhui {
+    height: 41px;
+    margin-top: 18px;
+    padding: 5px 0 2px 100px;
+    border-bottom: 1px solid #D2D2D2;
+    font-family: 黑体;
+    font-weight: bold;
+    text-align: center;
+    color: #398190;
+    font-size: 1rem;
+    line-height: 1.5rem;
+
+}
+
+.youhui:hover {
+    background-color: #E6F2F4;
+}
+
+.str {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: black;
+    font-size: 12px;
+    text-align: center;
+}
+
+.kongbai {
+    height: 121px;
+    width: 100%;
+}

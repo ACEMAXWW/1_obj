@@ -1,0 +1,8 @@
+.first_li {
+
+    font-weight: bold;
+}
+
+ul > li > a {
+    color: gray;
+}

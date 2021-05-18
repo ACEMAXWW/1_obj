@@ -1,0 +1,81 @@
+.bg_gray {
+    background: linear-gradient(to bottom, #f0f0f0 0%, #e0e0e0 100%);
+}
+
+.list_text1 {
+    width: 10%;
+    border: 0;
+    outline: 0;
+}
+
+.list_btn1 {
+    width: 1.5rem;
+    height: 1.5rem;
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+    font-weight: bolder;
+    line-height: 1;
+    color: #fff;
+}
+
+div.border.d-flex.flex-column {
+    overflow: hidden;
+    transition: 1s;
+}
+
+div.border.d-flex.flex-column:hover {
+    box-shadow: 0 0 5px #ccc;
+}
+
+.list_btn1:focus {
+    border: 0;
+    outline: 0;
+}
+
+.container .list_btn1:hover {
+    background: #999 !important;
+}
+
+.flex-column a.d-block > img {
+    transition: 1s;
+}
+
+.flex-column a.d-block > img:hover {
+    transform: scale(1.1);
+}
+
+.page_border {
+    border-color: #ccc;
+    padding: 8px 16px;
+}
+
+.page_border:hover {
+    color: #0aa1ed;
+}
+
+.sj_img {
+
+    margin-right: 8px;
+}
+
+.border-top {
+    border-top: 1px dashed #999 !important;
+}
+
+.btn_car {
+    width: 1rem;
+    height: 1rem;
+    line-height: 1rem;
+    font-size: 0.8rem;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    background-color: #ccc;
+    font-weight: bolder;
+    color: #fff;
+}
+
+.btn_car:hover {
+    background-color: #aaa;
+}
